@@ -1,2 +1,2 @@
 # javaprogram
-java program
+all prectice java program upload this repository 
