@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class  NameInput
+{
+public static void main(String args[])
+{
+String firstname,secondname sum;
+Scanner sc=new scanner(System.in);
+System.out.println("Enter the first name");
+firstname sc=nextString();
+System.out.println("Enter the second name");
+secondname sc=nextString(); 
+sum=firstname+secondname;
+System.out.println("your full name="+sum)
+}
+}

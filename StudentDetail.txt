@@ -1,0 +1,43 @@
+import java.io.*;
+import java.util.*;
+
+  class StudentDetails
+   {
+  String firstname;
+  String secondname;
+  int rollno;
+  int regno;
+  String collagename;
+  }
+
+  public void display()
+  {
+  System.out.println("firstname:",firstname);
+  System.out.println("secondname:",secondname);
+  System.out.println("rollno:",rollno);
+  System.out.println("regno:",collagename);
+  }
+  public Static void main(String [] args)
+  {
+  StudentDetails s1= new student;
+  Scanner sc= new Scanner(System.in);
+
+  System.out.println("enter your firstname:");
+  firstname = sc.nextline();
+
+  System.out.println("Enter your secondname:");
+  secondname =sc.nextline();
+
+  System.out.println("enter your rollno");
+  rollno=sc.nextInt();
+ 
+  System.out.println("enter your regno:");
+  regno=sc.nextInt();
+
+  System.out.println("enter your collage name:");
+  collagename=sc.nextInt();
+
+  display();
+ }
+}
+  
